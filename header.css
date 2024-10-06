@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    padding: 2%;
+
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1vw;
+    border-bottom: 0;
+}
+
+.logo {
+    flex: 3;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(240, 240, 240);
+    margin-bottom: 10%;
+    text-decoration: none;
+    font-size: 10vw;
+}
+
+.navBar {
+    flex: 1;
+    justify-content: flex-start;
+    
+}
+
+.navButton {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 5%;
+  }
+  
+  .navButton:hover {
+    background-color: rgba(0, 0, 0, 0.809);
+    color: rgb(255, 255, 255);
+  }
+
+  .socials {
+    flex: 1;
+    justify-content: flex-start;
+    max-width: 5vw;
+  }
+
+  .socialsImg {
+    max-width: 100%;
+  }

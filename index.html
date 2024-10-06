@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="/header.css">
+    <link rel="stylesheet" type="text/css" href="/body.css">
+
+    <head>
+        <div class="header">
+
+            <div class="navBar">
+                <button class="navButton"
+                    type="button" onclick="document.getElementById('body').style.backgroundColor='rgb(0, 120, 114)'">
+                    BLUE!
+                </button>
+                <button class="navButton"
+                    type="button" onclick="document.getElementById('body').style.backgroundColor='pink'">
+                    PINK!
+                </button>
+                <button class="navButton"
+                    type="button" onclick="document.getElementById('body').style.backgroundColor='yellow'">
+                    YELLOW!
+                </button>
+            </div>
+
+            <div class="logo">
+                <a class="title" href="index.html">PORTFOLIO</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.instagram.com/dalearthurphotography/" target="_blank">
+                    <img class="socialsImg" src="img/instagram_logo.webp" alt="Instagram Logo">
+                </a>
+            </div>
+
+        </div>
+    </head>
+
+
+
+    <body id="body">
+        <div class="p1">
+            <button class="p1button" type="button" onclick="document.getElementById('welcome').style.display='block'">This is a personal reflective journey across the landscape, its imperfections and obscurities</button>
+            <div class="p2">
+                <p id="welcome" style="display:none">WELCOME!</p>
+            </div>
+        </div>
+
+        <div class="page1">
+            <div><img id="img1" src="img/---_00108.jpg"></div>
+            <button class="arrowButton" onclick="document.getElementById('img1').src='img/20.jpg'"><img class="arrowImg" src="img/arrow-right.png"></button>
+        </div>
+    </body>
+</html>
